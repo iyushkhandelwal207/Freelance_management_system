@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelance Management System - Clients</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Freelance Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="clients.html">Clients</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="client-form">
+            <h2>Add New Client</h2>
+            <form id="add-client-form">
+                <input type="text" id="client-name" placeholder="Client Name" required>
+                <input type="email" id="client-email" placeholder="Client Email" required>
+                <button type="submit">Add Client</button>
+            </form>
+            <!-- Example form to add a client -->
+        </section>
+
+        <section id="client-list">
+            <h2>Current Clients</h2>
+            <ul id="clients"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 FlexiWorkForce. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
